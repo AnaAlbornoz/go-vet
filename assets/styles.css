@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Open+Sans:ital@1&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /*background-image: url(/img/Fondo.jpg); */
+    background-color: #c3effd9d;    
+}
+
+.imagenlog{
+    width: 30%;
+    margin: 3rem 25rem 0rem;
+    /*border: solid 0.2rem #7fa5b9;*/
+    border-radius: 10rem;
+}
+
+.container{
+    display: flex;
+
+}
+
+.botoninicio{
+    width: 20%;
+    background-color: #7fa5b9;
+    text-decoration: none;
+    border-radius: 3rem;
+    padding: 0.4%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+    margin: 1rem 29rem 5rem;
+    cursor: pointer;  
+}
+
+.botoninicio:hover{
+    background-color: #29688a;
+    
+}
+
+
+
+/*Recuadro de formulario */
+.login{
+    width: 40rem;
+    height: 20rem;
+    background-color: #8f8291;
+    margin: auto;
+    margin-top: 7rem;
+    box-shadow: #733e7a;
+    padding: 3rem 4rem;
+    border-top: 0.5rem solid #afabaf;
+    color: rgb(255, 255, 255);
+}
+/*Titulo formulario */
+.login h4{
+    margin: 0;
+    text-align: center;
+    height: 3rem;
+    margin-bottom: 2rem;
+    border-bottom: 0.1rem solid;
+    font-size: 1.5rem;
+}
+/*Recuadros usuario y contrasea */
+.recuadros{
+    width: 100%;
+    border: 0.1rem solid #00000091;
+    margin-bottom: 1rem;
+    padding: 0.6rem 0.2rem;
+    background: #f4d3f8;
+    font-size: 1rem;
+}
+
+/*Boton Ingresar */
+.botonlogin{
+    text-decoration: none;
+    width: 10%;
+    border-style:outset;
+    background-color: #1e005769;
+    padding: 1%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1rem;
+    margin: 18rem;
+    cursor: pointer;  
+}
+
+/*Boton olvide mi contra y nvo user */
+.login p{
+    height: 2rem;
+    text-align: center;
+    border-bottom: 0.1rem solid;
+}
+/*Boton olvide mi contra y nvo user */
+.login a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+
+
+/*Config parte recuadro */
+.sidebar {
+    list-style: none;
+    position: fixed;
+    left: 0;
+    width: 20rem;
+    height: 100%;
+    background: #f9e6fc;
+}
+
+
+ /*Config Menu */
+.sidebar header{
+    font-size: 2rem;
+    color: rgba(1, 4, 7, 0.575);
+    text-align: center;
+    line-height: 4rem;
+    background: #f1bff856;
+    user-select: none;
+    border-bottom: 0.1rem solid #050c1d15;
+}
+
+
+/*Config de lista */
+.sidebar ul a{
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 3rem;
+    font-size: 1rem;
+    color: rgba(1, 4, 7, 0.575);
+    padding-left: 1rem;
+    box-sizing: border-box;
+    border-top: 0.2rem solid #ffffff;
+    border-bottom: 0.1rem solid #050c1d44;
+}
+
+/*Config de lista mover */
+ul li:hover a{
+    padding-left: 50px;
+}
+
+/*Registrar Nuevo Usuario */
+.nuevo-usuario{
+    width: 25rem;
+    background: #8f82918a;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 7rem;
+    border-radius: 4rem;
+    color: white;
+}
+
+.nuevo-usuario h4{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/*Recuadritos */
+.controles{
+    width: 100%;
+    background: #88638d5b;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ffffff;
+    font-size: 1rem;
+    
+}
+
+.boton-registro{
+    width: 100%;
+    background: #351981af;
+    border: none;
+    padding: 0.7rem;
+    color: white;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+/*Datos mascotas */
+.datos-mascota{
+flex-direction: column;
+padding: 1rem;
+display: flex;
+gap: 2rem;
+}
+
+/*Cuadro mascotas */
+.cuadros-mascotas{
+    width: 40%;
+    background: #88638d5b;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.2rem;
+    border: 1px solid #ffffff;
+    font-size: 1rem;
+}
+
+/*Boton crear nuevo paciente */
+.boton-crear{
+    margin: 0.1rem 30rem;
+    width: 10%;
+    background: #351981af;
+    border: none;
+    text-decoration: none;
+    padding: 0.7rem;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.boton-crear:hover{
+    background-color: #28013fb4;
+}
+
+.sexo-tipo{
+    justify-content: start;
+    
+}
+

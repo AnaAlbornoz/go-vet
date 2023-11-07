@@ -1,2 +1,5 @@
-# go-vet
-Proyecto de sistema de veterinaria
+# Go Vet
+Sistema de Veterinaria
+Notas de Git
+M= Modified
+U= Untracked
