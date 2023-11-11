@@ -40,15 +40,14 @@ body{
 
 /*Recuadro de formulario */
 .login{
-    width: 40rem;
+    width: 30rem;
     height: 20rem;
-    background-color: #8f8291;
+    background-color: #05376673;
     margin: auto;
     margin-top: 7rem;
-    box-shadow: #733e7a;
     padding: 3rem 4rem;
-    border-top: 0.5rem solid #afabaf;
-    color: rgb(255, 255, 255);
+    border-top: 0.5rem solid #ffffff;
+    color: #ffffff;
 }
 /*Titulo formulario */
 .login h4{
@@ -62,10 +61,10 @@ body{
 /*Recuadros usuario y contrasea */
 .recuadros{
     width: 100%;
-    border: 0.1rem solid #00000091;
-    margin-bottom: 1rem;
+    border: 0.1rem solid #000000a8;
+    margin-bottom: 1.5rem;
     padding: 0.6rem 0.2rem;
-    background: #f4d3f8;
+    background: #ffffff;
     font-size: 1rem;
 }
 
@@ -73,14 +72,18 @@ body{
 .botonlogin{
     text-decoration: none;
     width: 10%;
-    border-style:outset;
-    background-color: #1e005769;
-    padding: 1%;
+    border-style:ridge;
+    background-color: #00065c4b;
+    padding: 0.3rem;
     text-align: center;
     color: aliceblue;
     font-size: 1rem;
-    margin: 18rem;
+    margin: 13rem;
     cursor: pointer;  
+}
+
+.botonlogin:hover{
+    background-color: #063853;
 }
 
 /*Boton olvide mi contra y nvo user */
@@ -89,7 +92,7 @@ body{
     text-align: center;
     border-bottom: 0.1rem solid;
 }
-/*Boton olvide mi contra y nvo user */
+/*Letras olvide mi contra y nvo user */
 .login a{
     color: aliceblue;
     text-decoration: none;
@@ -100,6 +103,45 @@ body{
     text-decoration: underline;
 }
 
+/*Registrar Nuevo Usuario */
+.nuevo-usuario{
+    width: 25rem;
+    background: #8f82918a;
+    padding: 3rem;
+    margin: auto;
+    margin-top: 7rem;
+    border-radius: 4rem;
+    color: #ffffff;
+}
+
+.nuevo-usuario h4{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/*Recuadritos */
+.controles{
+    width: 100%;
+    background: #e6e4fc;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ffffff;
+    font-size: 1rem;
+    
+}
+
+.boton-registro{
+    width: 100%;
+    background: #19648da2;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    color: #ffffff;
+    margin: 0.4rem;
+    font-size: 1rem;
+}
 
 /*Config parte recuadro */
 .sidebar {
@@ -110,7 +152,6 @@ body{
     height: 100%;
     background: #f9e6fc;
 }
-
 
  /*Config Menu */
 .sidebar header{
@@ -144,44 +185,6 @@ ul li:hover a{
     padding-left: 50px;
 }
 
-/*Registrar Nuevo Usuario */
-.nuevo-usuario{
-    width: 25rem;
-    background: #8f82918a;
-    padding: 2rem;
-    margin: auto;
-    margin-top: 7rem;
-    border-radius: 4rem;
-    color: white;
-}
-
-.nuevo-usuario h4{
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-/*Recuadritos */
-.controles{
-    width: 100%;
-    background: #88638d5b;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ffffff;
-    font-size: 1rem;
-    
-}
-
-.boton-registro{
-    width: 100%;
-    background: #351981af;
-    border: none;
-    padding: 0.7rem;
-    color: white;
-    margin: 1rem;
-    font-size: 1rem;
-}
 
 /*Datos mascotas */
 .datos-mascota{
@@ -193,12 +196,12 @@ gap: 2rem;
 
 /*Cuadro mascotas */
 .cuadros-mascotas{
-    width: 40%;
+    width: 30%;
     background: #88638d5b;
     padding: 0.2rem;
     border-radius: 0.5rem;
     margin-bottom: 0.2rem;
-    border: 1px solid #ffffff;
+    border: 0.1rem solid #ffffff;
     font-size: 1rem;
 }
 
@@ -223,4 +226,36 @@ gap: 2rem;
     justify-content: start;
     
 }
+
+/*Historial médico */
+.historial{
+    flex-direction: column;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.servicio{
+    padding: 0.3rem;
+    width: 8rem;
+}
+
+.observaciones{
+    padding: 2rem;
+    width: 25rem;
+}
+
+.boton-guardar{
+    margin: 12rem;
+    width: 10%;
+    background: #351981af;
+    border: none;
+    text-decoration: none;
+    padding: 0.7rem;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <title>Historial</title>
+</head>
+<body>
+
+    
+
+    <h3>Historial Médico</h3>
+    <form class="historial">
+         <label>Fecha:<input class="fecha" type="date" name="fecha"></label>
+         <label>Hora:<input class="hora" type="time" name="horario"></label>
+    
+        <label>Servicio:</label>
+        <select class= "servicio" name="servicios" id="serv">
+          <option value="consulta">Consulta</option>
+          <option value="control">Control</option>
+          <option value="analisis">Analisis</option>
+          <option value="cirugia">Cirugía</option>
+          <option value="vacunacion">Vacunación</option>
+          <option value="radiografia">Radiografía</option>
+        </select>
+        
+        <label>Paciente:<input class="pacientes" type="text" name="paciente"></label>
+        <label>Propietario:<input class="propietarios" type="text" name="propietario"></label>
+        <label>Veterinario:<input class="veterinarios" type="text" name="veterinario"></label>
+        <p>Observaciones:</p><textarea class="observaciones" id="observaciones" name="observacione"></textarea>
+        </form>
+
+        <a href="/paginas/menu.html" class="boton-guardar">Guardar</a>
+    
+</body>
+</html>

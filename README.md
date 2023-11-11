@@ -3,8 +3,8 @@ Sistema de Veterinaria
 Notas de Git  
 M= Modified  
 U= Untracked  
-A= Added
-D= Delete
+A= Added  
+D= Delete  
 
 
 Pasos para subir  
