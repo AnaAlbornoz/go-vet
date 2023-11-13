@@ -18,6 +18,16 @@ body{
 
 }
 
+.pie-pagina{
+        position: absolute; 
+        bottom: 0; 
+        left: 0;
+        z-index: 10;
+}
+
+
+
+
 .botoninicio{
     width: 20%;
     background-color: #7fa5b9;
@@ -103,10 +113,51 @@ body{
     text-decoration: underline;
 }
 
+
+/*Olvidé mi Contraseña */
+.olvide-contraseña{
+    width: 25rem;
+    background: #d0acd68a;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 7rem;
+    border-radius: 2rem;
+    color: #ffffff;
+}
+
+.olvide-contraseña h4{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.nueva-contraseña{
+    width: 100%;
+    background: #ffffff;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    border: 0.2rem solid #ffffff;
+    font-size: 1rem;
+}
+
+.boton-contraseña{
+    width: 100%;
+    background: #19648da2;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    color: #ffffff;
+    margin: 0.4rem;
+    font-size: 1rem;
+}
+
+
+
 /*Registrar Nuevo Usuario */
 .nuevo-usuario{
     width: 25rem;
-    background: #8f82918a;
+    background: #d0acd68a;
     padding: 3rem;
     margin: auto;
     margin-top: 7rem;
@@ -123,7 +174,7 @@ body{
 /*Recuadritos */
 .controles{
     width: 100%;
-    background: #e6e4fc;
+    background: #fdfdfd;
     padding: 0.4rem;
     border-radius: 0.4rem;
     margin-bottom: 1rem;
@@ -191,16 +242,16 @@ ul li:hover a{
 flex-direction: column;
 padding: 1rem;
 display: flex;
-gap: 2rem;
+gap: 1rem;
 }
 
 /*Cuadro mascotas */
 .cuadros-mascotas{
-    width: 30%;
+    width: 20%;
     background: #88638d5b;
     padding: 0.2rem;
     border-radius: 0.5rem;
-    margin-bottom: 0.2rem;
+    margin: 0.5rem;
     border: 0.1rem solid #ffffff;
     font-size: 1rem;
 }
@@ -208,7 +259,7 @@ gap: 2rem;
 /*Boton crear nuevo paciente */
 .boton-crear{
     margin: 0.1rem 30rem;
-    width: 10%;
+    width: 7%;
     background: #351981af;
     border: none;
     text-decoration: none;
@@ -257,5 +308,101 @@ gap: 2rem;
     font-size: 1rem;
 }
 
+/*Calendario */
+.calendar-container{
+    width: 50%;
+    max-width: 75rem;
+    background-color: #d6d6d6d7;
+    box-shadow: 0 1rem 2rem #4747474b;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.calendar-header{
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 0.2rem solid #29688a;
+}
+
+.calendar-header h1{
+    font-size: 2rem;
+    margin: 0;
+}
+
+/*Nov 2023 */
+.calendar-header p{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: #29688a;
+    font-weight: bold;
+}
+
+/*Cuadro */
+.calendar {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(7, minmax(0.2rem, 1fr));
+    grid-template-rows: 4rem;
+    grid-auto-rows: 7rem;
+}
+
+.day{
+    text-align: right;
+    padding: 0.6rem 0.6rem;
+    border-bottom: 0.1rem solid #29688a;
+    border-right: 0.1rem solid #29688a;
+    border-radius: 0.5rem;
+   
+}
+
+.day-name{
+    font-size: 1rem;
+    color: #063853;
+    text-align: center;
+    line-height: 4rem;
+    font-weight: bold;
+    border-bottom: 0.3rem solid #7fa5b9;
+}
 
 
+.calend-citas{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+.paciente-calend{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 10rem;
+}
+
+.veterinario-calend{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 10rem;
+}
+
+.fecha-calend{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 10rem;
+}
+
+.asunto-calend{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 8rem;
+   
+}
+
+.boton-buscar{
+    margin: 12rem;
+    width: 10%;
+    background: #351981af;
+    border: none;
+    text-decoration: none;
+    padding: 0.7rem;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
