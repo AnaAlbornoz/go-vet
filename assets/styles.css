@@ -26,11 +26,10 @@ body{
 }
 
 
-
-
 .botoninicio{
     width: 20%;
-    background-color: #7fa5b9;
+    /*background-color: #7fa5b9;*/
+    background-color: #206e97a2;
     text-decoration: none;
     border-radius: 3rem;
     padding: 0.4%;
@@ -48,15 +47,18 @@ body{
 
 
 
-/*Recuadro de formulario */
+/*Recuadro de formulario Login */
 .login{
-    width: 30rem;
-    height: 20rem;
-    background-color: #05376673;
+    width: 23rem;
+    height: 18rem;
+    background-color: #05376667;
+    border-radius: 2rem;
     margin: auto;
     margin-top: 7rem;
     padding: 3rem 4rem;
     border-top: 0.5rem solid #ffffff;
+    border-left: 0.3rem solid #ffffff;
+    border-right: 0.3rem solid #ffffff;
     color: #ffffff;
 }
 /*Titulo formulario */
@@ -71,6 +73,7 @@ body{
 /*Recuadros usuario y contrasea */
 .recuadros{
     width: 100%;
+    border-radius: 0.5rem;
     border: 0.1rem solid #000000a8;
     margin-bottom: 1.5rem;
     padding: 0.6rem 0.2rem;
@@ -81,14 +84,15 @@ body{
 /*Boton Ingresar */
 .botonlogin{
     text-decoration: none;
-    width: 10%;
+    
     border-style:ridge;
     background-color: #00065c4b;
-    padding: 0.3rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
     text-align: center;
     color: aliceblue;
     font-size: 1rem;
-    margin: 13rem;
+    margin: 9rem;
     cursor: pointer;  
 }
 
@@ -207,7 +211,7 @@ body{
  /*Config Menu */
 .sidebar header{
     font-size: 2rem;
-    color: rgba(1, 4, 7, 0.575);
+    color: #01040794;
     text-align: center;
     line-height: 4rem;
     background: #f1bff856;
@@ -224,7 +228,7 @@ body{
     width: 100%;
     line-height: 3rem;
     font-size: 1rem;
-    color: rgba(1, 4, 7, 0.575);
+    color: #01040793;
     padding-left: 1rem;
     box-sizing: border-box;
     border-top: 0.2rem solid #ffffff;
@@ -233,8 +237,62 @@ body{
 
 /*Config de lista mover */
 ul li:hover a{
-    padding-left: 50px;
+    padding-left: 3rem;
 }
+
+
+/*
+.season_tabs {
+  position: relative;   
+  min-height: 23rem; /* This part sucks 
+  clear: both;
+  margin: 2rem 0;
+  
+}
+.season_tab {
+  float: left;  
+  clear: both;
+  width: 20rem;
+  
+ 
+}
+.season_tab label {
+    background: #eee;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    position: relative;
+    left: 0.5rem;
+    width: 16rem;
+    height: 3rem;
+    display: table-cell;
+}
+
+Para centrar el cuadro
+.season_tab [type=radio] {
+    display: none;   
+}
+.season_content {
+  position: absolute;
+  top: 0; /*para que no se vaya para arriba
+  left: 18rem;
+  background: #f7e9fa;
+  right: 0;
+  bottom: 0;
+  padding: 2rem;
+  border: 0.3rem solid #ffffff;
+ }
+
+ [type=radio]:checked ~ label {
+    background: white;
+    border-bottom: 0.2rem solid #8bc34a;
+    z-index: 2;
+}
+[type=radio]:checked ~ label ~ .season_content {
+  z-index: 1;
+}
+*/
 
 
 /*Datos mascotas */
@@ -247,12 +305,12 @@ gap: 1rem;
 
 /*Cuadro mascotas */
 .cuadros-mascotas{
-    width: 20%;
-    background: #88638d5b;
+    width: 13%;
+    border-radius: 0.2rem;
+    background: #ffffff;
     padding: 0.2rem;
-    border-radius: 0.5rem;
     margin: 0.5rem;
-    border: 0.1rem solid #ffffff;
+    border: 0.1rem solid #000000;
     font-size: 1rem;
 }
 
@@ -283,7 +341,19 @@ gap: 1rem;
     flex-direction: column;
     padding: 1rem;
     display: flex;
-    gap: 1rem;
+    gap: 0.3rem;
+}
+
+.fecha{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 8rem;
+}
+
+.hora{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 8rem;
 }
 
 .servicio{
@@ -291,13 +361,31 @@ gap: 1rem;
     width: 8rem;
 }
 
+.pacientes{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 8rem;
+}
+
+.propietarios{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 8rem;
+}
+
+.veterinarios{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 8rem;
+}
+
 .observaciones{
     padding: 2rem;
-    width: 25rem;
+    width: 20rem;
 }
 
 .boton-guardar{
-    margin: 12rem;
+    margin: 10rem;
     width: 10%;
     background: #351981af;
     border: none;
