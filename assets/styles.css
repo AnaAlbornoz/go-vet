@@ -198,7 +198,9 @@ body{
     font-size: 1rem;
 }
 
-/*Config parte recuadro */
+
+
+/*Config parte recuadro*/
 .sidebar {
     list-style: none;
     position: fixed;
@@ -240,72 +242,30 @@ ul li:hover a{
     padding-left: 3rem;
 }
 
-
-/*
-.season_tabs {
-  position: relative;   
-  min-height: 23rem; /* This part sucks 
-  clear: both;
-  margin: 2rem 0;
-  
-}
-.season_tab {
-  float: left;  
-  clear: both;
-  width: 20rem;
-  
- 
-}
-.season_tab label {
-    background: #eee;
-    padding: 1rem;
-    border: 0.1rem solid #ccc;
-    font-size: 1.5rem;
-    vertical-align: middle;
-    position: relative;
-    left: 0.5rem;
-    width: 16rem;
-    height: 3rem;
-    display: table-cell;
+.boton-crear:hover{
+    background-color: #28013fb4;
 }
 
-Para centrar el cuadro
-.season_tab [type=radio] {
-    display: none;   
+.sexo-tipo{
+    justify-content: start;
+    
 }
-.season_content {
-  position: absolute;
-  top: 0; /*para que no se vaya para arriba
-  left: 18rem;
-  background: #f7e9fa;
-  right: 0;
-  bottom: 0;
-  padding: 2rem;
-  border: 0.3rem solid #ffffff;
- }
 
- [type=radio]:checked ~ label {
-    background: white;
-    border-bottom: 0.2rem solid #8bc34a;
-    z-index: 2;
-}
-[type=radio]:checked ~ label ~ .season_content {
-  z-index: 1;
-}
-*/
 
 
 /*Datos mascotas */
 .datos-mascota{
-flex-direction: column;
-padding: 1rem;
-display: flex;
-gap: 1rem;
-}
+    flex-direction: column;
+    color: #000000;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    
+    }
 
 /*Cuadro mascotas */
 .cuadros-mascotas{
-    width: 13%;
+    width: 40%;
     border-radius: 0.2rem;
     background: #ffffff;
     padding: 0.2rem;
@@ -316,9 +276,9 @@ gap: 1rem;
 
 /*Boton crear nuevo paciente */
 .boton-crear{
-    margin: 0.1rem 30rem;
+    margin: 0.1rem 14rem;
     width: 7%;
-    background: #351981af;
+    background: #063853;
     border: none;
     text-decoration: none;
     padding: 0.7rem;
@@ -327,14 +287,14 @@ gap: 1rem;
     font-size: 1rem;
 }
 
-.boton-crear:hover{
-    background-color: #28013fb4;
+.modal-container:target{
+    opacity: 1;
+    visibility: visible;
 }
 
-.sexo-tipo{
-    justify-content: start;
-    
-}
+
+
+
 
 /*Historial médico */
 .historial{
