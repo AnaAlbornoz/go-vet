@@ -9,7 +9,9 @@ body{
 .pagina-index {
     background-color: #c3effd9d;
   }
-
+.pagina-olvide{
+    background-image: url(/img/fondoanimalitos.png);
+}
  .pagina-login {
     background-image: url(/img/fondoanimalitos.png);
     opacity: 50;
@@ -30,7 +32,9 @@ body{
 .pagina-calend{
     background-image: url(/img/fonditoanimal.png);
 }
-
+.pagina-alertas{
+    background-color: #c3effd9d;
+}
 /*Comienzo de paginas */
 .imagenlog{
     width: 30%;
@@ -483,6 +487,6 @@ ol{
 font-size: 2.5rem;
     margin: 15rem;
     color: #1d1d1d;
-    background: #ddecfd;
-    border-radius: 1rem;
+    background: #e6f2ff;
+    border-radius: 3rem;
 }
