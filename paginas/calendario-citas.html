@@ -7,63 +7,87 @@
     <title>Calendario y Citas</title>
 </head>
 <body>
-    
-    <div class="calendar-container">
-        <div class="calendar-header">
-            <h1>Noviembre</h1>
-            <p>2023</p>
-        </div>
+    <body class="pagina-calend">
+        <!-- Contenido de la página 2 -->
+      </body>
 
-        <div class="calendar">
-            <span class="day-name">Lun</span>
-            <span class="day-name">Mar</span>
-            <span class="day-name">Mié</span>
-            <span class="day-name">Jue</span>
-            <span class="day-name">Vie</span>
-            <span class="day-name">Sáb</span>
-            <span class="day-name">Dom</span>
-            
-            <div class="day">1</div>
-            <div class="day">2</div>
-            <div class="day">3</div>
-            <div class="day">4</div>
-            <div class="day">5</div>
-            <div class="day">6</div>
-            <div class="day">7</div>
-            <div class="day">8</div>
-            <div class="day">9</div>
-            <div class="day">10</div>
-            <div class="day">11</div>
-            <div class="day">12</div>
-            <div class="day">13</div>
-            <div class="day">14</div>
-            <div class="day">15</div>
-            <div class="day">16</div>
-            <div class="day">17</div>
-            <div class="day">18</div>
-            <div class="day">19</div>
-            <div class="day">20</div>
-            <div class="day">21</div>
-            <div class="day">22</div>
-            <div class="day">23</div>
-            <div class="day">24</div>
-            <div class="day">25</div>
-            <div class="day">26</div>
-            <div class="day">27</div>
-            <div class="day">28</div>
-            <div class="day">29</div>
-            <div class="day">30</div>
+    <div class="sidebar"> 
+        
+        <section class="menu">
+            <h4>Menu</h4>
+        
+        <ul>
 
-        </div>
-    </div>
+            <li><a href="/paginas/datos.html"><i class=""></i>Datos mascotas</a></li>
+            <li><a href="/paginas/historial-medico.html"><i class=""></i>Historial médico</a></li>
+            <li><a href="/paginas/calendario-citas.html"><i class=""></i>Citas-Calendario</a></li>
+            <li><a href="/paginas/alertas.html"><i class=""></i>Avisos-alertas</a></li>
+            <li><a href="/paginas/login.html"><i class=""></i>Salir</a></li>
+        </ul>
+    </div> 
+</section>
 
+    <section class="ventana-derecha">
+          
+            <div class="ventana-container">
+
+
+                <div class="calendario-citas">
+                    <h1>Noviembre 2023</h1>
+                    <ol>
+                        <li class="nombre-dia" >Lun</li>
+                        <li class="nombre-dia" >Mar</li>
+                        <li class="nombre-dia" >Mié</li>
+                        <li class="nombre-dia" >Jue</li>
+                        <li class="nombre-dia" >Vie</li>
+                        <li class="nombre-dia" >Sáb</li>
+                        <li class="nombre-dia" >Dom</li>
+                        
+                        
+                        <li class="dia-uno">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li>19</li>
+                        <li>20</li>
+                        <li>21</li>
+                        <li>22</li>
+                        <li>23</li>
+                        <li>24</li>
+                        <li>25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li>28</li>
+                        <li>29</li>
+                        <li>30</li>
+
+                    </ol>
+                </div>
+           
+           
+   
     <form class="calend-citas">
         <label>Paciente:<input class="paciente-calend" type="text" name="paciente"></label>
         <label>Veterinario:<input class="veterinario-calend" type="text" name="veterinario"></label>
         <label>Fecha:<input class="fecha-calend" type="date" name="fecha"></label>
     </form>
+        <div class="asunto-cal">
         <label>Asunto:</label>
-     <select class= "asunto-calend" name="asunto" id="asunto-calenda">
+        <select class= "asunto-calend" name="asunto" id="asunto-calenda">
         <option value="consulta">Consulta</option>
         <option value="control">Control</option>
         <option value="analisis">Analisis</option>
@@ -71,8 +95,12 @@
         <option value="vacunacion">Vacunación</option>
         <option value="radiografia">Radiografía</option>
     </select>
-   
+</div>
 
     <a href="/paginas/menu.html" class="boton-buscar">Buscar</a>
+
+    <footer class="pie-pagina">
+        <p> &copy; Go Vet - 2023 </p>
+        </footer>
 </body>
 </html>

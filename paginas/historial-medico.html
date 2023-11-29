@@ -7,15 +7,36 @@
     <title>Historial</title>
 </head>
 <body>
-
+  <body class="pagina-histo">
+    <!-- Contenido de la página 2 -->
+  </body>
+  <div class="sidebar"> 
+        
+    <section class="menu">
+        <h4>Menu</h4>
     
+    <ul>
 
-    <h3>Historial Médico</h3>
+        <li><a href="/paginas/datos.html"><i class=""></i>Datos mascotas</a></li>
+        <li><a href="/paginas/historial-medico.html"><i class=""></i>Historial médico</a></li>
+        <li><a href="/paginas/calendario-citas.html"><i class=""></i>Citas-Calendario</a></li>
+        <li><a href="/paginas/alertas.html"><i class=""></i>Avisos-alertas</a></li>
+        <li><a href="/paginas/login.html"><i class=""></i>Salir</a></li>
+    </ul>
+</div> 
+</section>
+
+<section class="ventana-derecha">
+      
+        <div class="ventana-container">
+    
     <form class="historial">
+      <h2>Historial Médico</h2>
          <label>Fecha:<input class="fecha" type="date" name="fecha"></label>
          <label>Hora:<input class="hora" type="time" name="horario"></label>
     
-        <label>Servicio:</label>
+       <div class="servicio-historial">
+         <label>Servicio:</label>
         <select class= "servicio" name="servicios" id="serv">
           <option value="consulta">Consulta</option>
           <option value="control">Control</option>
@@ -24,14 +45,24 @@
           <option value="vacunacion">Vacunación</option>
           <option value="radiografia">Radiografía</option>
         </select>
-        
+      </div>
         <label>Paciente:<input class="pacientes" type="text" name="paciente"></label>
         <label>Propietario:<input class="propietarios" type="text" name="propietario"></label>
         <label>Veterinario:<input class="veterinarios" type="text" name="veterinario"></label>
+      <div class="subir-imagen">
+        <label for="myfile"> </label><input type="file" id="miimagen" name="mifile">
+      </div>
+      <div class="subir-archivo">
+        <label for="myfile"> </label><input type="file" id="miarchivo" name="myfile">
+      </div>
+
         <p>Observaciones:</p><textarea class="observaciones" id="observaciones" name="observacione"></textarea>
         </form>
-
+        
         <a href="/paginas/menu.html" class="boton-guardar">Guardar</a>
-    
+        
+        <footer class="pie-pagina">
+          <p> &copy; Go Vet - 2023 </p>
+          </footer>
 </body>
 </html>
